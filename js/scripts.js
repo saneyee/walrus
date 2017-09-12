@@ -1,16 +1,9 @@
 
 jQuery(document).ready(function() {
 
-    jQuery("h1").click(function() {
-      alert("This ia a header");
-      alert("I told you, THIS IS A HEADER!");
-    });
-
     jQuery("p").click(function() {
-      alert("This is a paragraph.");
-    });
+      $(".walrus-show").show();
+      $(".walrus-hide").hide();
 
-    jQuery("img").click(function() {
-      alert("This is an image.");
-    });
+});
 });
