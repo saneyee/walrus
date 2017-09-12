@@ -1,9 +1,16 @@
 
-jQuery(document).ready(function() {
+$(document).ready(function() {
 
-    jQuery("p").click(function() {
-      $(".walrus-show").show();
-      $(".walrus-hide").hide();
+      $("p").click(function() {
+      $(".walrus-show").toggle();
+      $(".walrus-hide").toggle();
+  });
 
-});
+      $("h2").click(function() {
+      $("h1").slideToggle();
+  });
+      $("h3").click(function() {
+      $("h1").fadeToggle();
+  });
+
 });
